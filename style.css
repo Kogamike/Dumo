@@ -161,7 +161,7 @@ body {
 }
 
 .primera-pagina .titulo-parche {
-    top: 67%;
+    top: 65%;
     left: 8%;
     font-size: 1.7rem;
 }
@@ -174,7 +174,7 @@ body {
     font-family: 'ThePosterFont', system-ui, sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
-    color: #5cdb95;
+    color: #e3a835;
     text-transform: uppercase;
     z-index: 3;
 }
@@ -201,6 +201,14 @@ body {
     left: 10%;
 }
 
+.primera-pagina .precio-palitos {
+    top: 27%;
+    left: 60%;
+    color: #e3a835;
+    font-size: 1.0rem;
+    font-family: 'ThePosterFont', system-ui, sans-serif;
+}
+
 .primera-pagina .patacones { 
     top: 37%; 
     left: 10%;
@@ -208,6 +216,14 @@ body {
 .primera-pagina .patacones + p { 
     top: 41%; 
     left: 10%;
+}
+
+.primera-pagina .precio-patacones {
+    top: 37%;
+    left: 60%;
+    color: #e3a835;
+    font-size: 1.0rem;
+    font-family: 'ThePosterFont', system-ui, sans-serif;
 }
 
 .primera-pagina .queso {
@@ -219,6 +235,15 @@ body {
     left: 10%;
 }
 
+.primera-pagina .precio-queso {
+    top: 48%;
+    left: 60%;
+    color: #e3a835;
+    font-size: 1.0rem;
+    font-family: 'ThePosterFont', system-ui, sans-serif;
+}
+
+
 .primera-pagina .ceviche { 
     top: 57%; 
     left: 10%;
@@ -227,6 +252,15 @@ body {
     top: 61%; 
     left: 10%;
 }
+
+.primera-pagina .precio-ceviche {
+    top: 57%;
+    left: 60%;
+    color: #e3a835;
+    font-size: 1.0rem;
+    font-family: 'ThePosterFont', system-ui, sans-serif;
+}
+
 
 .primera-pagina .chuzo { 
     top: 75%;
@@ -237,6 +271,15 @@ body {
     left: 10%;
 }
 
+.primera-pagina .precio-chuzo {
+    top: 75%;
+    left: 60%;
+    color: #e3a835;
+    font-size: 1.0rem;
+    font-family: 'ThePosterFont', system-ui, sans-serif;
+}
+
+
 .primera-pagina .combo { 
     top: 86%; 
     left: 10%;
@@ -245,6 +288,15 @@ body {
     top: 90%; 
     left: 10%;
 }
+
+.primera-pagina .precio-combo {
+    top: 86%;
+    left: 60%;
+    color: #e3a835;
+    font-size: 1.0rem;
+    font-family: 'ThePosterFont', system-ui, sans-serif;
+}
+
 
 /* 1. Logo superior pequeño (logo-1) */
 .segunda-pagina .logo-1 {
@@ -299,8 +351,8 @@ body {
 
 .segunda-pagina .imagen-papas {
     position: absolute;
-    top: 5%;
-    left: 78%;
+    top: 10%;
+    left: 81%;
     transform: translateX(-50%) rotate(15deg);
     width: 70%;
     max-width: 130px;
@@ -311,8 +363,8 @@ body {
 
 .segunda-pagina .imagen-hamburguesa {
     position: absolute;
-    bottom: 25%;
-    left: 75%;
+    bottom: 18%;
+    left: 78%;
     transform: translateX(-50%) rotate(-10deg);
     width: 75%;
     max-width: 135px;
@@ -324,10 +376,10 @@ body {
 /* 2. Título principal */
 .segunda-pagina .titulo-antojos {
     position: absolute;
-    left: 10%;
-    top: 15%;
+    left: 63%;
+    top: 4%;
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    font-size: 1.75rem;
+    font-size: 2.0rem;
     font-weight: 800;
     color: var(--crema-dumo);
     letter-spacing: 1px;
@@ -343,7 +395,7 @@ body {
     font-family: 'ThePosterFont', system-ui, sans-serif;
     font-size: 1.0rem;
     font-weight: 700;
-    color: #5cdb95;
+    color: #e3a835;
     text-transform: uppercase;
     z-index: 3;
 }
@@ -352,7 +404,7 @@ body {
 .segunda-pagina p {
     position: absolute;
     left: 10%;
-    width: 55%;
+    width: 48%;
     font-size: 0.70rem;
     color: var(--crema-dumo);
     line-height: 1.2;
@@ -362,8 +414,9 @@ body {
 
 .segunda-pagina [class^="precio-"] {
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    color: #5cdb95;
+    color: #e3a835;
     font-weight: bold;
+    font-size: 1.0rem;
 }
 
 /* --- POSICIONAMIENTO VERTICAL (Ajusta los porcentajes según necesites) --- */
@@ -375,21 +428,21 @@ body {
 .segunda-pagina .desc-papas-callejeras { top: 35%; }
 .segunda-pagina .precio-papas-callejeras { top: 32%; left: 55%; }
 
-.segunda-pagina .papas-tentacion { top: 47%; }
-.segunda-pagina .desc-papas-tentacion { top: 50%; }
-.segunda-pagina .precio-papas-tentacion { top: 47%; left: 55%; }
+.segunda-pagina .papas-tentacion { top: 43%; }
+.segunda-pagina .desc-papas-tentacion { top: 46%; }
+.segunda-pagina .precio-papas-tentacion { top: 43%; left: 55%; }
 
-.segunda-pagina .papas-pulled { top: 58%; }
-.segunda-pagina .desc-papas-pulled { top: 61%; }
-.segunda-pagina .precio-papas-pulled { top: 58%; left: 55%; }
+.segunda-pagina .papas-pulled { top: 54%; }
+.segunda-pagina .desc-papas-pulled { top: 57%; }
+.segunda-pagina .precio-papas-pulled { top: 54%; left: 55%; }
 
-.segunda-pagina .hamburguesa-dumo { top: 70%; }
-.segunda-pagina .desc-hamburguesa-dumo { top: 73%; }
-.segunda-pagina .precio-hamburguesa-dumo { top: 70%; left: 55%; }
+.segunda-pagina .hamburguesa-dumo { top: 65%; }
+.segunda-pagina .desc-hamburguesa-dumo { top: 68%; }
+.segunda-pagina .precio-hamburguesa-dumo { top: 65%; left: 55%; }
 
-.segunda-pagina .picada-paisa { top: 84%; }
-.segunda-pagina .desc-picada-paisa { top: 87%; }
-.segunda-pagina .precio-picada-paisa { top: 84%; left: 55%; }
+.segunda-pagina .picada-paisa { top: 77%; }
+.segunda-pagina .desc-picada-paisa { top: 80%; }
+.segunda-pagina .precio-picada-paisa { top: 77%; left: 55%; }
 
 .tercera-pagina .logo-1 {
     position: absolute;
@@ -417,34 +470,36 @@ body {
    ESTILOS ESPECÍFICOS: TERCERA PÁGINA (CÓCTELES)
    ========================================== */
 
+/* 1. Título principal de la sección */
 .tercera-pagina .titulo-compartir {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 8%;
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    font-size: 1.6rem;
-    line-height: 0.9;
+    font-size: 2.0rem;
+    line-height: 0.95;
     color: var(--crema-dumo);
     text-transform: uppercase;
     z-index: 3;
 }
 
+/* 2. Grilla principal de 2 columnas */
 .tercera-pagina .grid-cocteles {
     position: absolute;
-    top: 25%;
-    left: 6%;
+    top: 27%;
+    left: 8%;
     width: 88%;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 16px; /* Más espacio entre columnas */
     z-index: 3;
 }
 
 .tercera-pagina .columna-cocteles {
-    width: 48%;
+    width: 49%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 14px; /* Mayor separación vertical entre cada cóctel */
 }
 
 .tercera-pagina .item-coctel {
@@ -452,55 +507,63 @@ body {
     flex-direction: column;
 }
 
+/* 3. Encabezado de cada cóctel (Nombre + Precio) */
 .tercera-pagina .encabezado-coctel {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    gap: 6px;
 }
 
 .tercera-pagina .encabezado-coctel h3 {
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    font-size: 0.85rem;
+    font-size: 1.0rem;
     color: #e3a835;
     text-transform: uppercase;
     margin: 0;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); /* Mejora visibilidad sobre vectores */
 }
 
 .tercera-pagina .encabezado-coctel .precio {
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     color: #e3a835;
     font-weight: bold;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
+/* 4. Descripciones de los cócteles */
 .tercera-pagina .item-coctel p {
-    font-size: 0.52rem;
+    font-size: 0.70rem;
     color: var(--crema-dumo);
-    line-height: 1.15;
-    opacity: 0.9;
-    margin-top: 1px;
+    line-height: 1.2;
+    opacity: 0.92;
+    margin-top: 3px;
     text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
 }
 
+/* 5. Cóctel destacado inferior (Moscow Mule) */
 .tercera-pagina .moscow-mule {
     position: absolute;
-    bottom: 8%;
-    left: 26%;
-    width: 48%;
+    bottom: 15%;
+    left: 28%;
+    width: 46%;
     z-index: 3;
 }
+
 /* ==========================================
    ESTILOS ESPECÍFICOS: CUARTA PÁGINA (BEBIDAS)
    ========================================== */
 
-/* 1. Logos e imágenes de fondo */
+/* 1. LOGOS Y TÍTULO DE SECCIÓN */
 .cuarta-pagina .logo-1 {
     position: absolute;
-    top: 1%;
-    left: 19%;
+    top: -2%;
+    left: 18%;
     transform: translateX(-50%);
-    width: 35%;
-    max-width: 130px;
+    width: 32%;
+    max-width: 110px;
     height: auto;
     z-index: 2;
 }
@@ -516,101 +579,121 @@ body {
     z-index: 2;
 }
 
-/* 2. Título de Sección */
 .cuarta-pagina .titulo-1-pag-2 {
     position: absolute;
     top: 10%;
     left: 8%;
     font-family: 'ThePosterFont', system-ui, sans-serif;
     font-size: 1.6rem;
-    line-height: 0.9;
+    line-height: 0.95;
     color: var(--crema-dumo);
     text-transform: uppercase;
     z-index: 3;
 }
 
-/* 3. Estilos generales para los títulos de bebidas y precios */
+/* 2. REGLAS BASE ESPECÍFICAS (EVITA QUITAR HERENCIAS RARRAS) */
 .cuarta-pagina h3 {
     position: absolute;
-    width: 55%;
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    font-size: 0.85rem;
+    font-size: 1.0rem;
     font-weight: 700;
-    color: #e3a835; /* Dorado/Amarillo acorde a la paleta de bebidas */
+    color: #e3a835; /* Dorado */
     text-transform: uppercase;
     z-index: 3;
 }
 
-.cuarta-pagina p {
+/* Solo afecta a los <p> que tienen clase desc- */
+.cuarta-pagina p[class^="desc-"] {
     position: absolute;
-    width: 52%;
-    font-size: 0.52rem;
-    color: var(--crema-dumo);
+    font-family: system-ui, -apple-system, sans-serif; /* Texto legible normal */
+    font-size: 0.65rem;
+    color: var(--crema-dumo); /* Crema */
     line-height: 1.15;
     opacity: 0.9;
+    font-weight: normal;
+    text-transform: none;
     z-index: 3;
 }
 
-/* Estilo para las etiquetas de precio */
-.cuarta-pagina p[class^="precio-"],
-.cuarta-pagina p:nth-of-type(3n) {
+/* Solo afecta a los <p> que tienen clase precio- */
+.cuarta-pagina p[class^="precio-"] {
+    position: absolute;
     font-family: 'ThePosterFont', system-ui, sans-serif;
-    font-size: 0.85rem;
-    color: #e3a835;
+    font-size: 0.90rem;
     font-weight: bold;
+    color: #e3a835;
+    text-align: right;
+    z-index: 3;
 }
 
-/* 4. POSICIONAMIENTO VERTICAL Y DISTRIBUCIÓN EN 2 COLUMNAS (Ajustes de Top / Left) */
+/* ==========================================
+   3. POSICIONAMIENTO INDIVIDUAL CON CLASES DIRECTAS
+   ========================================== */
 
-/* Columna 1 (Izquierda - Cervezas y Licores) */
-.cuarta-pagina h3:nth-of-type(1) { top: 20%; left: 8%; } /* Cerveza Saborizada */
-.cuarta-pagina p:nth-of-type(1)  { top: 22.5%; left: 8%; }
-.cuarta-pagina p:nth-of-type(2)  { top: 20%; left: 42%; } /* Precio */
+/* --- COLUMNA 1 (IZQUIERDA) --- */
 
-.cuarta-pagina h3:nth-of-type(2) { top: 31%; left: 8%; } /* Pilsen */
-.cuarta-pagina p:nth-of-type(3)  { top: 33.5%; left: 8%; }
-.cuarta-pagina p:nth-of-type(4)  { top: 31%; left: 42%; }
+/* 1. Cerveza Saborizada */
+.cuarta-pagina .cerveza-saborizada { top: 20%; left: 8%; }
+.cuarta-pagina .desc-cerveza-saborizada { top: 22.5%; left: 8%; width: 30%; }
+.cuarta-pagina .precio-cerveza-saborizada { top: 20%; left: 39%; width: 10%; }
 
-.cuarta-pagina h3:nth-of-type(3) { top: 43%; left: 8%; } /* Aguila Light */
-.cuarta-pagina p:nth-of-type(5)  { top: 45.5%; left: 8%; }
-.cuarta-pagina p:nth-of-type(6)  { top: 43%; left: 42%; }
+/* 2. Pilsen */
+.cuarta-pagina .pilsen { top: 31%; left: 8%; }
+.cuarta-pagina .desc-pilsen { top: 33.5%; left: 8%; width: 30%; }
+.cuarta-pagina .precio-pilsen { top: 31%; left: 39%; width: 10%; }
 
-.cuarta-pagina h3:nth-of-type(4) { top: 55%; left: 8%; } /* Corona */
-.cuarta-pagina p:nth-of-type(7)  { top: 57.5%; left: 8%; }
-.cuarta-pagina p:nth-of-type(8)  { top: 55%; left: 42%; }
+/* 3. Aguila Light */
+.cuarta-pagina .aguila-light { top: 42%; left: 8%; }
+.cuarta-pagina .desc-aguila-light { top: 44.5%; left: 8%; width: 30%; }
+.cuarta-pagina .precio-aguila-light { top: 42%; left: 39%; width: 10%; }
 
-.cuarta-pagina h3:nth-of-type(5) { top: 67%; left: 8%; } /* Club Colombia */
-.cuarta-pagina p:nth-of-type(9)  { top: 69.5%; left: 8%; }
-.cuarta-pagina p:nth-of-type(10) { top: 67%; left: 42%; }
+/* 4. Corona */
+.cuarta-pagina .corona { top: 53%; left: 8%; }
+.cuarta-pagina .desc-corona { top: 55.5%; left: 8%; width: 30%; }
+.cuarta-pagina .precio-corona { top: 53%; left: 39%; width: 10%; }
 
-.cuarta-pagina h3:nth-of-type(6) { top: 79%; left: 8%; } /* Red Bull */
-.cuarta-pagina p:nth-of-type(11) { top: 81.5%; left: 8%; }
-.cuarta-pagina p:nth-of-type(12) { top: 79%; left: 42%; }
+/* 5. Club Colombia */
+.cuarta-pagina .club-colombia { top: 64%; left: 8%; }
+.cuarta-pagina .desc-club-colombia { top: 66.5%; left: 8%; width: 30%; }
+.cuarta-pagina .precio-club-colombia { top: 64%; left: 39%; width: 10%; }
 
-/* Columna 2 (Derecha - Sodas, Batidos y Refrescos) */
-.cuarta-pagina h3:nth-of-type(7) { top: 20%; left: 52%; } /* Batidos */
-.cuarta-pagina p:nth-of-type(13) { top: 22.5%; left: 52%; width: 38%; }
-.cuarta-pagina p:nth-of-type(14) { top: 20%; left: 85%; }
+/* 6. Red Bull */
+.cuarta-pagina .red-bull { top: 75%; left: 8%; }
+.cuarta-pagina .desc-red-bull { top: 77.5%; left: 8%; width: 30%; }
+.cuarta-pagina .precio-red-bull { top: 75%; left: 39%; width: 10%; }
 
-.cuarta-pagina h3:nth-of-type(8) { top: 31%; left: 52%; } /* Sodas Saborizadas */
-.cuarta-pagina p:nth-of-type(15) { top: 33.5%; left: 52%; width: 38%; }
-.cuarta-pagina p:nth-of-type(16) { top: 31%; left: 85%; }
 
-.cuarta-pagina h3:nth-of-type(9) { top: 43%; left: 52%; } /* Granizados */
-.cuarta-pagina p:nth-of-type(17) { top: 45.5%; left: 52%; width: 38%; }
-.cuarta-pagina p:nth-of-type(18) { top: 43%; left: 85%; }
+/* --- COLUMNA 2 (DERECHA) --- */
 
-.cuarta-pagina h3:nth-of-type(10) { top: 55%; left: 52%; } /* Gatorade */
-.cuarta-pagina p:nth-of-type(19) { top: 57.5%; left: 52%; width: 38%; }
-.cuarta-pagina p:nth-of-type(20) { top: 55%; left: 85%; }
+/* 7. Batidos */
+.cuarta-pagina .batidos { top: 20%; left: 52%; }
+.cuarta-pagina .desc-batidos { top: 22.5%; left: 52%; width: 30%; }
+.cuarta-pagina .precio-batidos { top: 20%; left: 83%; width: 12%; }
 
-.cuarta-pagina h3:nth-of-type(11) { top: 67%; left: 52%; } /* Soda */
-.cuarta-pagina p:nth-of-type(21) { top: 69.5%; left: 52%; width: 38%; }
-.cuarta-pagina p:nth-of-type(22) { top: 67%; left: 85%; }
+/* 8. Sodas Saborizadas */
+.cuarta-pagina .sodas-saborizadas { top: 31%; left: 52%; }
+.cuarta-pagina .desc-sodas-saborizadas { top: 33.5%; left: 52%; width: 30%; }
+.cuarta-pagina .precio-sodas-saborizadas { top: 31%; left: 83%; width: 12%; }
 
-.cuarta-pagina h3:nth-of-type(12) { top: 79%; left: 52%; } /* Gaseosa */
-.cuarta-pagina p:nth-of-type(23) { top: 81.5%; left: 52%; width: 38%; }
-.cuarta-pagina p:nth-of-type(24) { top: 79%; left: 85%; }
+/* 9. Granizados */
+.cuarta-pagina .granizados { top: 42%; left: 52%; }
+.cuarta-pagina .desc-granizados { top: 44.5%; left: 52%; width: 30%; }
+.cuarta-pagina .precio-granizados { top: 42%; left: 83%; width: 12%; }
+
+/* 10. Gatorade */
+.cuarta-pagina .gatorade { top: 53%; left: 52%; }
+.cuarta-pagina .desc-gatorade { top: 55.5%; left: 52%; width: 30%; }
+.cuarta-pagina .precio-gatorade { top: 53%; left: 83%; width: 12%; }
+
+/* 11. Soda */
+.cuarta-pagina .soda { top: 64%; left: 52%; }
+.cuarta-pagina .desc-soda { top: 66.5%; left: 52%; width: 30%; }
+.cuarta-pagina .precio-soda { top: 64%; left: 83%; width: 12%; }
+
+/* 12. Gaseosa */
+.cuarta-pagina .gaseosa { top: 75%; left: 52%; }
+.cuarta-pagina .desc-gaseosa { top: 77.5%; left: 52%; width: 30%; }
+.cuarta-pagina .precio-gaseosa { top: 75%; left: 83%; width: 12%; }
 
 /* ==========================================
    ADAPTABILIDAD RESPONSIVA (CELULARES)
